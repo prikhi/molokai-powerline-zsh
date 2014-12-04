@@ -8,5 +8,5 @@ With antigen:
 
     source antigen.zsh
     antigen use oh-my-zsh
-    antigen theme prikhi/molokai-powerline-zsh 
+    antigen theme prikhi/molokai-powerline-zsh molokai-powerline-zsh
     antigen apply
