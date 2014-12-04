@@ -95,9 +95,9 @@ prompt_status() {
   symbols=()
   [[ $RETVAL -ne 0 ]] && symbols+="%{%F{red}%}$CROSS"
   [[ $UID -eq 0 ]] && symbols+="%{%F{yellow}%}$LIGHTNING"
-  [[ $(jobs -l | wc -l) -gt 0 ]] && symbols+="%{%F{green}%}$GEAR"
+  [[ $(jobs -l | wc -l) -gt 0 ]] && symbols+="%{%F{cyan}%}$GEAR"
 
-  [[ -n "$symbols" ]] && prompt_segment $PRIMARY_FG default " $symbols "
+  [[ -n "$symbols" ]] && prompt_segment $PRIMARY_FG default "%{%B%} $symbols %{%b%}"
 }
 
 ## Main prompt
