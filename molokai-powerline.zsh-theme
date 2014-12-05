@@ -47,7 +47,7 @@ prompt_end() {
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   local user=`whoami`
-  prompt_segment magenta default "%{%F{black}%}# %{%F{white}%}%{%B%}%(!.%{%F{yellow}%}.)$user@%m %{%b%}"
+  prompt_segment magenta default "%{%B%}# %{%F{white}%}%(!.%{%F{yellow}%}.)$user@%m %{%b%}"
 }
 
 # Git: branch/detached head, dirty status
