@@ -10,3 +10,6 @@ With antigen:
     antigen use oh-my-zsh
     antigen theme prikhi/molokai-powerline-zsh molokai-powerline-zsh
     antigen apply
+
+
+![Image of Theme](https://raw.githubusercontent.com/prikhi/molokai-powerline-zsh/master/screenshot.png)
